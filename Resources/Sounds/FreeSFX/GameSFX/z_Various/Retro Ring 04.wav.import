@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Ring 04.wav-1d1d13b29f2feee1b8e0c0d7fb33a9ba.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/GameSFX/z_Various/Retro Ring 04.wav"
+dest_files=[ "res://.import/Retro Ring 04.wav-1d1d13b29f2feee1b8e0c0d7fb33a9ba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

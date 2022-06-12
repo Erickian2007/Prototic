@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Nightmare Mode.wav-45e04ade9d09835ab32517e1f9feb670.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/Voices/Nightmare Mode.wav"
+dest_files=[ "res://.import/Nightmare Mode.wav-45e04ade9d09835ab32517e1f9feb670.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

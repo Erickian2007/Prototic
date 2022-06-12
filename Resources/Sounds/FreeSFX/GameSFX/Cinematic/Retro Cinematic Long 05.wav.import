@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Cinematic Long 05.wav-b9d7d86d0a32f77325494f08659b8ff3.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/GameSFX/Cinematic/Retro Cinematic Long 05.wav"
+dest_files=[ "res://.import/Retro Cinematic Long 05.wav-b9d7d86d0a32f77325494f08659b8ff3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

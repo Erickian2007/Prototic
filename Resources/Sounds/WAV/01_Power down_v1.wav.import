@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/01_Power down_v1.wav-c1fdd87c098bd954e643f262f66c2e2d.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/WAV/01_Power down_v1.wav"
+dest_files=[ "res://.import/01_Power down_v1.wav-c1fdd87c098bd954e643f262f66c2e2d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Passing Airplane 01.wav-fc3e3a2c7b19445bff057e4adeee59c4.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/GameSFX/Vehicles/Retro Passing Airplane 01.wav"
+dest_files=[ "res://.import/Retro Passing Airplane 01.wav-fc3e3a2c7b19445bff057e4adeee59c4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

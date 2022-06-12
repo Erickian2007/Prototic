@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/03_Coin Pickup_v1.wav-02511c6b9dd0b999ff22e4ae5d51c402.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/WAV/03_Coin Pickup_v1.wav"
+dest_files=[ "res://.import/03_Coin Pickup_v1.wav-02511c6b9dd0b999ff22e4ae5d51c402.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

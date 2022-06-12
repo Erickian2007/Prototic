@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Jump Simple B 05.wav-1495046cd72fa43a60866691d2c88935.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/GameSFX/Bounce Jump/Retro Jump Simple B 05.wav"
+dest_files=[ "res://.import/Retro Jump Simple B 05.wav-1495046cd72fa43a60866691d2c88935.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

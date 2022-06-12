@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Charge StereoUP 12.wav-2d80fb4d8838f48d3b6aed60b6755843.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/GameSFX/Charge/Retro Charge StereoUP 12.wav"
+dest_files=[ "res://.import/Retro Charge StereoUP 12.wav-2d80fb4d8838f48d3b6aed60b6755843.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

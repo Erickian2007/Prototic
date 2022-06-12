@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Level Completed.wav-ae3aa51dd4e6863c1d8d2eccbd8ca204.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/Voices/Level Completed.wav"
+dest_files=[ "res://.import/Level Completed.wav-ae3aa51dd4e6863c1d8d2eccbd8ca204.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

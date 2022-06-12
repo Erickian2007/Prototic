@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/03_Game Start_v1.wav-4f1c50a2bd4ba081247f46f9d35993ee.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/WAV/03_Game Start_v1.wav"
+dest_files=[ "res://.import/03_Game Start_v1.wav-4f1c50a2bd4ba081247f46f9d35993ee.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

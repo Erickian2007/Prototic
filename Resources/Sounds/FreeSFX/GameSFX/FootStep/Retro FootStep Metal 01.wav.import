@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro FootStep Metal 01.wav-94fb85f01528ee2a93e31f97c0b8a080.sample"
+
+[deps]
+
+source_file="res://Resources/Sounds/FreeSFX/GameSFX/FootStep/Retro FootStep Metal 01.wav"
+dest_files=[ "res://.import/Retro FootStep Metal 01.wav-94fb85f01528ee2a93e31f97c0b8a080.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

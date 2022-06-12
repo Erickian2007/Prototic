@@ -15,7 +15,9 @@ var vel: Vector2
 #    PRONTO
 func _ready() -> void:
 	Global.player = self
-
+	
+	set_physics_process(true)
+	
 #    PROCESSOS DE FÍSICAS
 func _physics_process(delta: float) -> void:
 	gravity(delta)
@@ -33,8 +35,7 @@ func gravity(_delta: float) -> void:
 #    ANIMAÇÃO
 func animation() -> void:
 	change_direction()
-	if is_on_floor():
-		move_anim()
+	move_anim()
 
 #    MUDAR DIREÇÃO
 func change_direction() -> void:
