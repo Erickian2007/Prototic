@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Resources/To Menu UI/f03ddb17-a0c4-4c9d-a5d9-477a8f246711.png" type="Texture" id=1]
+[ext_resource path="res://Game/Scenes/Menu Inicial/Menu PB/Script/menu_pb.gd" type="Script" id=2]
+
+[node name="Menu PB" type="ParallaxBackground"]
+script = ExtResource( 2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 1 )
+expand = true

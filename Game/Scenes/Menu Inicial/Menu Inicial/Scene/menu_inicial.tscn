@@ -1,0 +1,108 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Game/Scenes/Menu Inicial/Menu PB/Scene/menu_pb.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Resources/Fonts/DungeonFont.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Game/Scenes/Menu Inicial/Menu Inicial/Script/menu_inicial.gd" type="Script" id=3]
+[ext_resource path="res://Resources/To Menu UI/2cc24b2d-e087-4ad4-a666-c0dacb0900c9.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=2]
+size = 204
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 2 )
+
+[node name="Menu Inicial" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+script = ExtResource( 3 )
+
+[node name="Menu PB" parent="." instance=ExtResource( 1 )]
+Velocidade = 30
+
+[node name="CenterName" type="CenterContainer" parent="."]
+anchor_right = 1.0
+margin_bottom = 204.0
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="CenterName"]
+margin_left = 198.0
+margin_right = 826.0
+margin_bottom = 204.0
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = 10
+custom_constants/shadow_offset_y = 7
+custom_fonts/font = SubResource( 2 )
+text = "Prototic"
+
+[node name="VBox" type="VBoxContainer" parent="."]
+margin_left = 98.0
+margin_top = 266.0
+margin_right = 302.0
+margin_bottom = 501.0
+custom_constants/separation = 32
+alignment = 1
+
+[node name="Play" type="Button" parent="VBox"]
+margin_right = 204.0
+margin_bottom = 57.0
+focus_mode = 0
+mouse_filter = 1
+custom_colors/font_color_focus = Color( 0.12549, 0.12549, 0.12549, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0.156863, 0.156863, 0.156863, 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "Play"
+flat = true
+align = 0
+
+[node name="Options" type="Button" parent="VBox"]
+margin_top = 89.0
+margin_right = 204.0
+margin_bottom = 146.0
+focus_mode = 0
+mouse_filter = 1
+custom_colors/font_color_focus = Color( 0.12549, 0.12549, 0.12549, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0.156863, 0.156863, 0.156863, 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "Options"
+flat = true
+align = 0
+
+[node name="Exit" type="Button" parent="VBox"]
+margin_top = 178.0
+margin_right = 204.0
+margin_bottom = 235.0
+focus_mode = 0
+mouse_filter = 1
+custom_colors/font_color_focus = Color( 0.12549, 0.12549, 0.12549, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0.156863, 0.156863, 0.156863, 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "Exit"
+flat = true
+align = 0
+
+[node name="SelectSeta" type="Node2D" parent="."]
+
+[node name="Positions" type="Node2D" parent="SelectSeta"]
+
+[node name="PlayPosition" type="Position2D" parent="SelectSeta/Positions"]
+position = Vector2( 85, 293 )
+
+[node name="OptionsPosition" type="Position2D" parent="SelectSeta/Positions"]
+position = Vector2( 85, 385 )
+
+[node name="ExitPosition" type="Position2D" parent="SelectSeta/Positions"]
+position = Vector2( 85, 469 )
+
+[node name="Seta" type="Sprite" parent="SelectSeta"]
+position = Vector2( -17, 292 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
